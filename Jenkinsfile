@@ -1,5 +1,5 @@
 node {
-    def appDir = 'main/var/www/nextjs-app'
+    def appDir = '/var/www/nextjs-app'
 
     stage('Clean Workspace') {
         echo 'Cleaning workspace...'
